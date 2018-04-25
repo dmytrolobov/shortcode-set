@@ -1,0 +1,153 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Wow Shortcodes\n"
+"POT-Creation-Date: 2018-03-27 22:09+0300\n"
+"PO-Revision-Date: 2018-03-27 22:09+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wow-shortcodes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/partials/main.php:10
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/partials/main.php:11
+msgid "Support"
+msgstr ""
+
+#: admin/partials/shortcodes.php:15
+msgid ""
+"You can use a variety of shortcodes to insert on a page or posts. Management "
+"of shortcodes added to the page and posts"
+msgstr ""
+
+#: admin/partials/shortcodes.php:30
+msgid "We will be very grateful if you leave a review on the our work"
+msgstr ""
+
+#. translators: %s is url to Customizer
+#: admin/partials/shortcodes.php:34
+#, php-format
+msgid ""
+"If you have suggestions on how to improve the plugin or create a new plug-"
+"in, write to us via the <a href=\"%s\">support form</a>."
+msgstr ""
+
+#: admin/partials/shortcodes.php:35
+msgid "We really appreciate your reviews and suggestions."
+msgstr ""
+
+#: admin/partials/shortcodes.php:37
+msgid "Thank you for being a customer of Wow-Company"
+msgstr ""
+
+#: admin/partials/shortcodes.php:39
+msgid "Best Regards"
+msgstr ""
+
+#: asset/menu/index.php:20
+msgid ""
+"Get ready to build something unique & beautiful. Let's Go Make Your Website "
+"Legendary"
+msgstr ""
+
+#: asset/menu/index.php:22
+msgid "We hope you enjoy it!"
+msgstr ""
+
+#: asset/menu/index.php:28
+msgid "Plugins"
+msgstr ""
+
+#: asset/menu/index.php:42
+msgid ""
+"Thank you for choosing wow. We hope that making your experience perfect."
+msgstr ""
+
+#: shortcodes/assets/php/button.php:12
+msgid "Select Icon"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:23
+msgid "Icon shape"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:25
+msgid "none"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:26 shortcodes/assets/php/button.php:27
+msgid "circle"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:28 shortcodes/assets/php/button.php:29
+#: shortcodes/assets/php/button.php:30 shortcodes/assets/php/button.php:31
+msgid "square"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:37
+msgid "Icon color"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:41
+msgid "Shape color"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:47
+msgid "Icon size"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:51
+msgid "Icon Align"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:64
+msgid "Shortcode"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:70
+msgid "Preview"
+msgstr ""
+
+#: shortcodes/assets/php/button.php:78
+msgid "Insert Icon"
+msgstr ""
+
+#: shortcodes/shortcodes.php:205 shortcodes/shortcodes.php:231
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Wow Shortcodes"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://codecanyon.net/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The shortcodes for Wow Theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wow-Company"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://codecanyon.net/user/wow-company"
+msgstr ""
