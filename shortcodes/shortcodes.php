@@ -290,8 +290,10 @@
 		$container_id = 'wow-icons';
 		$title = 'Icons';
 		$context = '<a class="thickbox button" id="icon-picker-button" title="'.$title.'" style="outline: medium none !important; cursor: pointer;" ><img class="icon" src="'.$img.'" alt="Icons"/>Icons</a>';
-		echo $context;
-		add_action('admin_footer', 'wow_icon_picker_add');
+		if(get_current_screen()->parent_base !== 'wow-company') {
+    	echo $context;
+    	add_action('admin_footer', 'wow_icon_picker_add');
+		}
 	}
 	add_action('media_buttons', 'wow_icon_picker_button', 15 );
 	
