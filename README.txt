@@ -1,5 +1,5 @@
 === Shortcode Set ===
-Contributors: Wpcalc
+Contributors: Wpcalc, lobov
 Donate link: https://wow-estore.com/
 Tags: shortcode, shortcodes, shortcode set
 Requires at least: 4.5
@@ -35,6 +35,14 @@ Adjusting the colors will allow you to integrate elements into a website design.
 * Installation option 2: Download the zip file, then upload the plugin via the wp-admin in the `Plugins` -> `Add new` section. Or unzip the archive and upload the folder to the plugins directory `/wp-content/plugins/` via ftp
 * Press `Activate` when you have installed the plugin via dashboard or press `Activate` in the in the `Plugins` list 
 
+== Frequently Asked Questions ==
+= Attributes for button shortcode  =
+
+You can use next attributes for button shortcode:
+* link - add link to button
+* class - add class to button
+* id - add ID to button
+
 
 == Screenshots ==
 1. Options
@@ -43,6 +51,9 @@ Adjusting the colors will allow you to integrate elements into a website design.
 
 == Changelog ==
 
+= 1.0.1 = 
+* Fixed: display icons
+* Fixed: buttons style
 
 = 1.0 = 
 * Initial release

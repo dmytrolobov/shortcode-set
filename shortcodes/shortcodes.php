@@ -16,6 +16,8 @@
 	function wow_shortcodes_scripts() {
 		// include style
 		wp_enqueue_script('wow-shortcodes', plugin_dir_url( __FILE__) . 'assets/js/frontend.js', array('jquery'), null, true );
+		// include Font Awesome 5.0.6
+		wp_enqueue_style( 'wow-fontawesome', plugin_dir_url( __FILE__) . 'assets/fonts/font-awesome/css/fontawesome-all.min.css', null, '5.0.6' );
 		// include script
 		wp_enqueue_style( 'wow-shortcodes', plugin_dir_url( __FILE__) . 'assets/css/frontend.min.css' );
 		
@@ -39,6 +41,9 @@
 		.accordion-title .plus, .accordion-title .minus {
 		color: '.$main_color.';
 		}
+		.btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6, .btn-7, .btn-8, .btn-9, .btn-10, .btn-11, .btn-12{
+		color: '.$main_color.';
+		}
 		.btn-1, .btn-2, .btn-7, .btn-7:hover, .btn-8, .btn-8:before, .btn-9, .btn-10, .btn-11, .btn-12 {
 		border-color: '.$border_color.';
 		}
@@ -46,6 +51,10 @@
 		background: '.$border_color.';
 		}
 		.btn-1:hover, .btn-7:hover, .btn-8:hover, .btn-9:hover, .btn-10:hover, .btn-11:hover, .btn-12:hover {
+		color: '.$second_color.';
+		}
+		.btn-2:hover, .btn-3:hover, .btn-4:hover, .btn-5:hover, .btn-6:hover {
+		background: none;
 		color: '.$second_color.';
 		}';
 		$css = trim( preg_replace( '~\s+~s', ' ', $css ) );
@@ -237,7 +246,7 @@
 		'colorshape'    => '',
 		'align'         => '',
 		), $atts));
-				
+		
 		if( $shape !== 'none' ) {
 			$width = $size*2;
 			if ( $shape == 'fas fa-ban' ) {

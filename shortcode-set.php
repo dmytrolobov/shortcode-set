@@ -3,7 +3,7 @@
 		* Plugin Name:       Shortcode Set
 		* Plugin URI:        https://wordpress.org/plugins/shortcode-set/
 		* Description:       The shortcode set
-		* Version:           1.0
+		* Version:           1.0.1
 		* Author:            Wow-Company
 		* Author URI:        https://wow-company.com
 		* License:           GPL-2.0+
@@ -42,7 +42,7 @@
 			}
 			function admin_scripts(){
 				// include Font Awesome 5.0.6
-				wp_enqueue_style( 'wow-fontawesome', $this->pluginurl . 'asset/fonts/font-awesome/css/fontawesome-all.min.css', null, '5.0.6' );
+				wp_enqueue_style( 'wow-fontawesome', $this->pluginurl . 'shortcodes/assets/fonts/font-awesome/css/fontawesome-all.min.css', null, '5.0.6' );
 				// include Color Picker
 				wp_enqueue_style('wp-color-picker');
 				wp_enqueue_script('wp-color-picker');
